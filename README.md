@@ -1,6 +1,6 @@
 # shortest-path
 
-<p align="center">
+<p>
   <img src="https://github.com/omouravictor/omouravictor/blob/main/assets/shortest-path.PNG" alt="Shortest-Path">
 </p>
 
