@@ -19,7 +19,6 @@ public class Graph {
         List<Edge> edgesList = new ArrayList<>();
         Vertex currentVertex, targetVertex;
         String fileLine, fileEdge[];
-        Graph graph = new Graph();
         int vertexsQtd, weight;
         Edge edge;
 
@@ -30,7 +29,6 @@ public class Graph {
             BufferedReader br = new BufferedReader(new FileReader(url));
 
             fileEdge = br.readLine().split(" ");
-
             vertexsQtd = Integer.parseInt(fileEdge[0]);
             for (int i = 0; i < vertexsQtd; i++) {
                 vertexsList.add(new Vertex(i));
@@ -56,11 +54,11 @@ public class Graph {
             System.out.println("Houve um erro na função readFromFile.");
             return null;
         }
-        return graph;
+        return this;
     }
 
     public List<Vertex> getVertexs() {
-        return vertexs;
+        return this.vertexs;
     }
 
     public void setVertexs(List<Vertex> vertexs) {
@@ -68,7 +66,7 @@ public class Graph {
     }
 
     public List<Edge> getEdges() {
-        return edges;
+        return this.edges;
     }
 
     public void setEdges(List<Edge> edges) {
@@ -76,7 +74,7 @@ public class Graph {
     }
 
     public int getSize() {
-        return vertexs.size();
+        return this.vertexs.size();
     }
 
 }
