@@ -1,7 +1,7 @@
 # Shortest Path
 
 <p>
-  <img src="https://github.com/omouravictor/omouravictor/blob/main/assets/shortest-path.PNG" alt="Shortest-Path">
+  <img src="https://github.com/omouravictor/omouravictor/blob/main/assets/shortest-path/shortest-path.PNG" alt="Shortest-Path">
 </p>
 
 A console program to find the shortest path using 3 different types of algorithms.
