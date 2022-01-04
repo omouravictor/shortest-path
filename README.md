@@ -8,4 +8,4 @@ A console program to find the shortest path using 3 different types of algorithm
 
 ✅ Dijkstra ✅ Bellman-Ford ✅ Floyd-Warshall
 
-To execute the program, you just need to run the Main.java file.
+To execute the program, you just need to compile all files and run the Main.java file.
